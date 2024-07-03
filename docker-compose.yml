@@ -1,0 +1,12 @@
+name: fakestore-backend-drf
+services:
+  app:
+    image: eduardosilvasc/fakestore-backend-drf:latest
+    environment:
+      - MODE=DEVELOPMENT
+      - SECRET_KEY=rq2r_(2^sippfcu1&go8pf=ct@qx2c-i2+^*1w@sm#syy^!)l@
+      - DEBUG=True
+      - PASSAGE_APP_ID=6RTG1jMkkpWQfjRLzjQcI2rn
+      - PASSAGE_API_KEY=cO4AfzP26Q.RALimXPEaIx52sR4hkuyhS147MMRBC2YotnU6jaEJXplYukWo9BKwOqmMmikUkK4
+    ports:
+      - 8000:8000
