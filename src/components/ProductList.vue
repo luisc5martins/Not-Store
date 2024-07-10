@@ -103,6 +103,6 @@ onMounted(async () => {
 
 .product-description-stars p {
   font-size: 12px;
-  color: #535050;
+  color: #535051;
 }
 </style>
