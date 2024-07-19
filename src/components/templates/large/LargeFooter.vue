@@ -3,7 +3,6 @@
   <div class="links">
     <RouterLink to="/">Help</RouterLink>
     <RouterLink to="/">Contact Us</RouterLink>
-    <RouterLink to="/">Privacy & Terms</RouterLink>
   </div>
   <div class="icons">
     <i class="mdi mdi-facebook" />
