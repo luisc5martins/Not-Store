@@ -28,7 +28,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  
+ 
   <div class="product-list">
     <router-link :to="{ name: 'ProductAdd' }">
       <button class="icon ">

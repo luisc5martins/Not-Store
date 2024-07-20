@@ -30,4 +30,5 @@
   gap: 4rem;
   font-size: 2.2rem;
 }
+
 </style>

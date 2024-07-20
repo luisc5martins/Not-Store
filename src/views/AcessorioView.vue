@@ -89,14 +89,6 @@ async function excluir(id) {
  justify-content: center;
  vertical-align: middle;
  text-align: center;
- 
-
-
-
-
 }
-
-
-
 
 </style>

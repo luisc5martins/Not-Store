@@ -2,17 +2,20 @@
 
 <template>
   <div class="icons">
-    <i class="mdi mdi-magnify" />
-    <i class="mdi mdi-account-circle-outline" />
-    <i class="mdi mdi-cart-outline" />
+    <i class="mdi mdi-magnify" id="icones" />
+    <i class="mdi mdi-account-circle-outline" id="icones" />
+    <i class="mdi mdi-cart-outline" id="icones" />
   </div>
 </template>
 
 <style scoped>
 .icons {
-  display: flex;
+  margin-right: 45%;
   gap: 1rem;
   align-items: center;
   font-size: 1.7rem;
+}
+#icones {
+  padding: 5px;
 }
 </style>

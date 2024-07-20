@@ -4,14 +4,11 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
 <template>
   <div class="logo_and_menu">
     <logo-title class="mb-2" />
-    <div class="divider" />
-    <div class="menu">
+      <div class="divider" />
+      <div class="menu">
       <router-link to="/">
         <i class="icon mdi mdi-home-outline" /> Home
       </router-link>
-    </div>
-    <div class="divider" />
-    <div class="menu">
       <router-link to="/">
         <i class="icon mdi mdi-account-circle-outline" /> Perfil
       </router-link>
@@ -31,7 +28,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
         <i class="icon mdi mdi-palette" /> Cores
       </router-link>
       <router-link to="/marcas">
-        <i class="icon mdi mdi-palette" /> Marcas
+        <i class="icon mdi mdi-car-info" /> Marcas
       </router-link>
     </div>
   </div>
@@ -48,11 +45,12 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
 
 .divider {
   margin-top: 1rem;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #ffffff;
 }
 
 .menu {
   padding: 3rem;
+  padding-top: 0;
 }
 
 .menu a {
@@ -63,5 +61,9 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   gap: 1rem;
   font-size: 1.3rem;
   margin-top: 2.2rem;
+}
+
+.logo_and_menu {
+  background-color:#ffffff;
 }
 </style>

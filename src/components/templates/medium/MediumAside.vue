@@ -9,9 +9,6 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
       <router-link to="/">
         <i class="icon mdi mdi-home-outline" /> Home
       </router-link>
-    </div>
-    <div class="divider" />
-    <div class="menu">
       <router-link to="/">
         <i class="icon mdi mdi-account-circle-outline" /> Perfil
       </router-link>
@@ -20,6 +17,18 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
       </router-link>
       <router-link to="/login">
         <i class="icon mdi mdi-account" /> Login
+      </router-link>
+      <router-link to="/categorias">
+        <i class="icon mdi mdi-car-multiple" /> Categorias
+      </router-link>
+      <router-link to="/acessorios">
+        <i class="icon mdi mdi-list-box" /> Acessórios
+      </router-link>
+      <router-link to="/cores">
+        <i class="icon mdi mdi-palette" /> Cores
+      </router-link>
+      <router-link to="/marcas">
+        <i class="icon mdi mdi-car-info" /> Marcas
       </router-link>
     </div>
   </div>
@@ -41,6 +50,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
 
 .menu {
   padding: 3rem;
+  padding-top: 0;
 }
 
 .menu a {
