@@ -31,11 +31,8 @@ const createCategory = async () => {
           <label for="name">Nome</label>
           <input type="text" id="name" v-model="category.name" />
         </div>
-        <div class="row-form">
-          <label for="icon">Ícone</label>
-          <input type="text" id="icon" v-model="category.icon" />
-        </div>
         <button class="btn-send" type="submit">Adicionar</button>
+
       </form>
     </div>
   </div>
