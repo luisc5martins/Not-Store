@@ -37,22 +37,21 @@ async function excluir(id) {
 </script>
 
 <template>
-  <h1>Categoria</h1>
+  <h1 class="title">Categoria</h1>
   <hr />
   <div class="form">
     <input type="text" v-model="categoria.descricao" placeholder="Descrição" />
     <button @click="salvar">Salvar</button>
     <button @click="limpar">Limpar</button>
   </div>
-  <hr />
-  <ul>
+  <div class="list">
     <li v-for="categoria in categorias" :key="categoria.id">
       <span @click="editar(categoria)">
         ({{ categoria.id }}) - {{ categoria.descricao }} -
       </span>
       <button @click="excluir(categoria.id)">X</button>
     </li>
-  </ul>
+  </div>
 </template>
 
 <style>

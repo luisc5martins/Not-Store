@@ -3,12 +3,11 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
 </script>
 <template>
   <div class="logo_and_menu">
-    <logo-title class="mb-2" />
+    <router-link to="/">
+        <LogoTitle />
+      </router-link>
       <div class="divider" />
       <div class="menu">
-      <router-link to="/">
-        <i class="icon mdi mdi-home-outline" /> Home
-      </router-link>
       <router-link to="/">
         <i class="icon mdi mdi-account-circle-outline" /> Perfil
       </router-link>
@@ -34,8 +33,9 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   </div>
 </template>
 <style scoped>
-.mb-2 {
-  margin-bottom: 1.5rem;
+
+.button {
+  border-color: #ffffff;
 }
 
 .icon {
@@ -63,7 +63,10 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   margin-top: 2.2rem;
 }
 
+.button {
+  border: transparent;
+}
 .logo_and_menu {
-  background-color:#ffffff;
+  text-decoration: none;
 }
 </style>

@@ -18,4 +18,8 @@
 #icones {
   padding: 5px;
 }
+.icons {
+  background-color: white;
+  border-radius: 50px;
+}
 </style>
