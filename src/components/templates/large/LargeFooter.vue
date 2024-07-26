@@ -18,11 +18,10 @@
   gap: 4rem;
   font-size: 1.2rem;
   color: #000;
-}
-
-.links a {
   text-decoration: none;
 }
+
+
 
 .icons {
   padding-right: 3rem;
