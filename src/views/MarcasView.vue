@@ -38,7 +38,6 @@ async function excluir(id) {
 
 <template>
   <h1 class="title">Marcas</h1>
-  <hr />
   <div class="form">
     <input type="text" v-model="marca.nome" placeholder="Marca" />
     <input type="text" v-model="marca.nacionalidade" placeholder="Nacionalidade" />
