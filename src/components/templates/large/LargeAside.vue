@@ -3,7 +3,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
 </script>
 <template>
   <div class="logo_and_menu">
-    <router-link to="/">
+    <router-link to="/" class="link">
         <LogoTitle />
       </router-link>
       <div class="divider" />
@@ -33,6 +33,9 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   </div>
 </template>
 <style scoped>
+.link {
+  text-decoration: none;
+}
 
 .button {
   border-color: #ffffff;
@@ -63,10 +66,4 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   margin-top: 2.2rem;
 }
 
-.button {
-  border: transparent;
-}
-.logo_and_menu {
-  text-decoration: none;
-}
 </style>
