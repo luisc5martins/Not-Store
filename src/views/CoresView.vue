@@ -38,7 +38,6 @@ async function excluir(id) {
 
 <template>
   <h1 class="title">Cores</h1>
-  <hr />
   <div class="form">
     <input type="text" v-model="cor.nome" placeholder="Cor" />
     <button @click="salvar">Salvar</button>
