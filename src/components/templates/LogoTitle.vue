@@ -25,5 +25,11 @@
   font-family: 'Belleza', sans-serif;
   font-weight: 400;
   font-style: normal;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  gap: 1rem;
+ 
+
 }
 </style>
